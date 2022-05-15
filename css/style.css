@@ -1,0 +1,123 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+  font: 18px/1.5em  'Poppins', sans-serif;;
+  background: #f4f4f4;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+h3 {
+  margin: 20px 0 20px 0;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  min-height: 70px;
+  background: #135dd4;
+  color: yellow;
+}
+
+#branding {
+  float: left;
+}
+#branding img {
+  float: left;
+  margin-right: 100px;
+}
+#branding h1 {
+  float: right;
+  margin-top: 50px;
+  font-size: 70px;
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header nav ul li {
+  display: inline;
+  float: left;
+  padding: 0 20px 0 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 17px;
+}
+
+header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+header nav ul li a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+#showcase {
+  min-height: 550px;
+  background: url('../img/fishermans-hut-4478431_1920.jpg') no-repeat -250px -430px;
+  text-align: center;
+  color: rgb(20, 48, 6);
+  font-weight: bold;
+}
+#kafe-droppen {
+  margin: 20px 0 20px 0;
+}
+#kafe-droppen h2 {
+  margin: 20px 0 20px 0;
+}
+#gotland {
+  display: inline-flex;
+  justify-content: space-between;
+
+}
+#gotland div.right {
+padding-right: 10px;
+}
+
+footer {
+  padding: 30px 0 10px 0;
+  min-height: 50px;
+  background: #135dd4;
+  color: yellow;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media(max-width:768px){
+   #branding img {
+     display: none;
+   }
+  #branding, #branding h1, header nav {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  #branding h1 {
+    margin-bottom: 40px;
+  }
+  header nav ul {
+    display: block;
+  }
+
+  header nav ul li {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  header nav ul li a {
+    font-size: 16px;
+  }
+  #showcase {
+    background: url('../img/sweden.webp') no-repeat -250px 0px;
+  }
+}
