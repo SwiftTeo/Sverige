@@ -86,7 +86,7 @@ header nav ul li a:hover {
   color: white;
   font-size: 20px;
   cursor: pointer;
-  
+
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -110,7 +110,6 @@ footer {
   color: yellow;
   font-size: 18px;
   text-align: center;
-  margin: 400px 0 0 0;
 }
 
 @media(max-width:768px){
