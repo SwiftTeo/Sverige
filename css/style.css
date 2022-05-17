@@ -94,6 +94,16 @@ header nav ul li a:hover {
 #lektion-3-dialog {
   display: none;
 }
+ul#text li{
+  list-style: none;
+  border: #ccc 3px solid;
+  padding: 20px;
+  margin-bottom: 10px;
+  background: rgba(230, 230, 230, 0.5);
+}
+ul#text hr{
+  width: 27%;
+}
 #gotland {
   display: inline-flex;
   justify-content: space-between;
